@@ -13,7 +13,7 @@ namespace ConsoleApp19
 {
     class program
     {
-        
+
         static void Main(string[] args)
         {
             Service Servic1 = new Service();
@@ -28,7 +28,8 @@ namespace ConsoleApp19
                 double num2 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine(target.Request(num2));
 
-            }else if (num3 == 2)
+            }
+            else if (num3 == 2)
             {
                 Console.WriteLine("Enter the value of Temperature");
 
@@ -39,8 +40,9 @@ namespace ConsoleApp19
             {
                 Console.WriteLine("you must enter a number");
             }
-            
+
 
         }
     }
+
 }

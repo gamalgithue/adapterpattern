@@ -8,7 +8,6 @@ namespace ConsoleApp19
 {
      class Adapter:Itarget
     {
-        public bool flag = true;
 
         private Service _Service1;
         public Adapter(Service _service)
